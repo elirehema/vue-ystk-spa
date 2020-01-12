@@ -2,6 +2,10 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'spa',
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/vuespa/' : '/',
+    routerNameSplitter: '/',
+  },
   /*
    ** Headers of the page
    */
