@@ -12,12 +12,19 @@
           <v-layout row wrap align-center>
             <v-flex shrink xs12 sm6 md5 order-md1 order-sm1>
               <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-text class="black--text font-weight-bold display-1">Maggic Hands Massage</v-card-text>
+                <v-card-title
+                  v-if="$vuetify.breakpoint.mdAndUp"
+                  class="black--text font-weight-bold display-1 justify-center"
+                >{{title}}</v-card-title>
+                <v-card-title
+                  v-if="$vuetify.breakpoint.smAndDown"
+                  class="black--text font-weight-bold title"
+                >{{title}}</v-card-title>
               </v-card>
             </v-flex>
             <v-flex grow xs12 sm6 md7 order-md2 order-sm2>
               <v-card dark tile flat color="rgb(255, 0, 0, 0.1)">
-                <v-card-text class="black--text">{{ title1}} {{ title1}}</v-card-text>
+                <v-card-text class="black--text">{{ description }}</v-card-text>
               </v-card>
             </v-flex>
           </v-layout>
@@ -45,21 +52,20 @@ export default {
   },
   data() {
     return {
-      title1:
+      description:
         "Magic Hands Massage — spa website design inspiration, spa" +
         "website design ideas, spa website layout, spa, beauty," +
         "health, white, grey, turquoise, fresh, clean, feminine," +
         "minimal, web design, website design, professional, brand design, brand identity," +
-        "website design inspiration, feminine branding design" +
-        "If you’re quite active on Instagram, you probably know just how" +
-        "common inspirational quotes are on the platform. The truth is, they work." +
-        "They never cease to get engagement. But this doesn’t just happen on Instagram:" +
-        "people simply love relating to positive statements! That’s also why many salons" +
-        "and spas these days will have light boxes sitting at the front desk, displaying" +
-        "a fun or inspiring saying. So whether you’re looking for social media material," +
-        "a bank of spa quotes to insert at the bottom of a" +
-        "marketing email or display on your light box, we’ve got you covered!"
+        "website design inspiration, feminine branding design",
+      title: "Magic Hands Massage"
     };
   }
 };
 </script>
+<style scoped>
+img {
+  width: 100%;
+  height: 100%;
+}
+</style>

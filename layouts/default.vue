@@ -14,7 +14,7 @@
       <v-spacer />
 
       <v-card
-        v-if="$vuetify.breakpoint.smAndUp"
+        v-if="$vuetify.breakpoint.mdAndUp"
         class="d-flex flex-row-reverse"
         color="primary"
         flat
@@ -33,7 +33,7 @@
         </v-card>
       </v-card>
       <v-btn v-if="$vuetify.breakpoint.smAndDown" icon @click.stop="click">
-        <v-icon>mdi-menu</v-icon>
+        <v-icon color="white">mdi-menu</v-icon>
       </v-btn>
     </v-app-bar>
     <v-content>
