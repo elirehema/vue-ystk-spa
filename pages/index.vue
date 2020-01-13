@@ -33,13 +33,6 @@
           </v-layout>
         </v-container>
       </v-img>
-      <!--<v-card class="elevation-20" height="100%">
-        <v-toolbar dark color="primary">
-          <v-toolbar-title>I want this to take up the whole space with slight padding</v-toolbar-title>
-          <v-spacer></v-spacer>
-        </v-toolbar>
-        <v-card-text></v-card-text>
-      </v-card>-->
     </v-flex>
   </v-layout>
 </template>
