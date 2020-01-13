@@ -5,7 +5,7 @@
     right
     temporary
     fixed
-    class="primary"
+    class="primary darken-3"
   >
     <v-list>
       <v-list-item v-for="(i, index) in draweritems" :key="index" :to="i.to">
@@ -13,8 +13,7 @@
           <v-icon :class="[i.iconClass]" v-text="i.icon"></v-icon>
         </v-list-item-avatar>
         <v-list-item-content>
-          <v-list-item-title v-text="i.title" class="black--text font-weight-regular"></v-list-item-title>
-          <v-list-item-subtitle v-text="i.subtitle" class="white--text font-weight-light"></v-list-item-subtitle>
+          <v-list-item-title v-text="i.title" class="white--text overline"></v-list-item-title>
         </v-list-item-content>
       </v-list-item>
     </v-list>
