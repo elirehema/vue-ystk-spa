@@ -4,19 +4,17 @@
     width="100%"
     fill-height
     fill-width
-    src="https://www.eymockup.com/wp-content/uploads/2019/09/Coconut-Spa-Product-Bottle-Mockup.jpg"
+    src="https://image.freepik.com/free-photo/spa-massage-concept-herbal-compress-ball-cream-flower-soap-scented-candle_73344-3118.jpg"
   >
     <v-container fluid fill-height grid-list-md text-xs-center>
       <v-layout row wrap align-center>
         <v-flex shrink xs12 sm12 md12 order-md1 order-sm1>
-          <v-card color="transparent" ma-0 pa-0 flat>
+          <v-card color="transparent" ma-0 pa-0 flat elevation="1">
             <v-card-text>
               <v-img
                 height="100%"
                 width="100%"
-                fill-height
-                fill-width
-                src="https://www.eymockup.com/wp-content/uploads/2019/09/Coconut-Spa-Product-Bottle-Mockup.jpg"
+                src="https://s1.1zoom.me/b2327/175/Gerberas_Stones_Spa_552366_1920x1080.jpg"
               ></v-img>
             </v-card-text>
           </v-card>
@@ -30,14 +28,6 @@
         </v-flex>
       </v-layout>
     </v-container>
-    <!--<v-container fluid>
-      <v-subheader class="display-1 black--text font-weight-black">Products</v-subheader>
-      <v-row>
-        <v-col cols="12" md="3" sm="12" v-for="(product, index ) in products" :key="index">
-          <bottle-component :product="product"></bottle-component>
-        </v-col>
-      </v-row>
-    </v-container>-->
   </v-img>
 </template>
 <script>
