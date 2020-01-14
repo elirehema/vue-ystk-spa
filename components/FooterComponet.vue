@@ -22,8 +22,8 @@
           <v-layout row wrap align-center>
             <v-flex xs12 sm12 md4 order-md1 order-sm1>
               <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center black--text">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center black--text">
+                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
+                <v-card-text class="justify-center caption">
                   Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
                   Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
                   accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
@@ -33,8 +33,8 @@
             </v-flex>
             <v-flex xs12 sm12 md4 order-md2 order-sm2>
               <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center">
+                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
+                <v-card-text class="justify-center caption">
                   Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
                   Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
                   accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
@@ -44,8 +44,8 @@
             </v-flex>
             <v-flex xs12 sm12 md4 order-md3 order-sm3>
               <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center black--text">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center black--text">
+                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
+                <v-card-text class="justify-center caption">
                   Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
                   Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
                   accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim

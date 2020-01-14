@@ -13,7 +13,11 @@
                 <v-card-actions class="grey lighten-3 align-content-center">
                   <v-container fill-height>
                     <v-row align="center" justify="center space-around">
-                      <p cols="12" sm="12" class="text-uppercase">{{data.subtitle}}</p>
+                      <p
+                        cols="12"
+                        sm="12"
+                        class="text-uppercase title font-weight-bold"
+                      >{{data.subtitle}}</p>
                       <v-spacer></v-spacer>
                       <v-avatar size="36" color="primary">
                         <v-icon dark>mdi-vanish</v-icon>
