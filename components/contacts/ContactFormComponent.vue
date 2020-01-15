@@ -81,8 +81,8 @@ export default {
   methods: {
     mailTo() {
       document.location.href =
-        this.email +
-        "?subject=" +
+         
+        "magichandsmassage6@gmail.com?subject=" +
         "Name: \n" +
         this.name +
         " \n\n Message:  " +
