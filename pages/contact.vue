@@ -1,13 +1,14 @@
 <template>
-  <v-app class="app">
-    <v-container grid-list-xl text-xs-center>
-      <v-layout row wrap>
-        <v-flex xs10 offset-xs1>
-          <v-card dark color="primary">
-            <v-card-text>CONTACTS</v-card-text>
-          </v-card>
-        </v-flex>
-      </v-layout>
-    </v-container>
-  </v-app>
+  <contact-us-component></contact-us-component>
 </template>
+<script>
+import ContactUsComponent from "~/components/contacts/ContactFormComponent.vue";
+export default {
+  components: {
+    ContactUsComponent
+  },
+  data() {
+    return {};
+  }
+};
+</script>
