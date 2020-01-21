@@ -2,7 +2,7 @@
   <v-footer dark padless>
     <v-card flat tile color="primary lighten-0" class="white--text text-center" width="100%">
       <v-card-title dense>
-        <strong class="subheading white--text">Get connected with us on social networks!</strong>
+        <h5 class="subheading white--text">Connect with us on social media!</h5>
 
         <v-spacer></v-spacer>
         <v-btn
