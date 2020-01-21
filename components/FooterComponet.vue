@@ -21,16 +21,32 @@
         <v-container fluid fill-height grid-list-md text-xs-center>
           <v-layout row wrap align-center>
             <v-flex xs12 sm12 md4 order-md1 order-sm1>
-              <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center caption">
-                  Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-                  Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-                  accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-                  a sit amet dui.
-                </v-card-text>
-              </v-card>
+              <a
+                class="twitter-timeline"
+                data-height="150"
+                href="https://twitter.com/massagetz?ref_src=twsrc%5Etfw"
+              >Tweets by massagetz</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a
+                href="https://twitter.com/massagetz?ref_src=twsrc%5Etfw"
+                class="twitter-follow-button"
+                data-show-count="false"
+              >Follow @massagetz</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a
+                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+                class="twitter-share-button"
+                data-show-count="false"
+              >Tweet</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a
+                href="https://twitter.com/intent/tweet?screen_name=massagetz&ref_src=twsrc%5Etfw"
+                class="twitter-mention-button"
+                data-show-count="false"
+              >Tweet to @massagetz</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </v-flex>
+
             <v-flex xs12 sm12 md4 order-md2 order-sm2>
               <v-card dark tile flat color="rgb(255, 0, 0, 0)">
                 <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
