@@ -8,7 +8,7 @@
   >
     <v-container fluid fill-height grid-list-md text-xs-center>
       <v-layout row wrap align-center>
-        <v-flex shrink xs12 sm12 md12 order-md1 order-sm1>
+        <!-- <v-flex shrink xs12 sm12 md12 order-md1 order-sm1>
           <v-card color="transparent" ma-0 pa-0 flat elevation="1">
             <v-card-text>
               <v-img
@@ -18,7 +18,7 @@
               ></v-img>
             </v-card-text>
           </v-card>
-        </v-flex>
+        </v-flex>-->
         <v-flex xs12 sm12 md12 order-md2 order-sm2>
           <v-row>
             <v-col cols="12" md="3" sm="12" wrap v-for="(product, index ) in products" :key="index">

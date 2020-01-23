@@ -2,11 +2,11 @@
   <v-layout row wrap>
     <v-flex md12 xs12>
       <v-img
-        height="100%"
+        height="800"
         width="100%"
         fill-height
         fill-width
-        src="https://cdn.pixabay.com/photo/2017/09/06/20/35/massage-2722936_960_720.jpg"
+        src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
       >
         <v-container fill-height grid-list-md text-xs-center>
           <v-layout row wrap align-center>
