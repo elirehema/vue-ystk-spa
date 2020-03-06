@@ -79,13 +79,13 @@ export default {
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/"
         },
-        {
-          icon: "mdi-face-profile",
-          iconClass: "primary lighten-1 white--text",
-          title: "Salon",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/salon"
-        },
+        // {
+        //   icon: "mdi-face-profile",
+        //   iconClass: "primary lighten-1 white--text",
+        //   title: "Salon",
+        //   subtitle: "Lorem ipsum dolor sit de amet ...",
+        //   to: "/salon"
+        // },
         {
           icon: "mdi-face",
           iconClass: "primary lighten-1 white--text",
