@@ -88,7 +88,7 @@ export default {
           subhead: " Wheat Germ Oil, 200 ml",
           price: 114,
           image:
-            "https://millevertus.ca/boutique/image/cache/catalog/huile_vegetale/wheatgerm-Triticum-vulgare-vegetable-oil-500x500.jpg",
+            "https://raw.githubusercontent.com/elirehema/vuespa/master/assets/img/static/plant_extra.jpg",
           description:
             "Wheat germ oil is derived from the germ of the wheat berry, which" +
             " is the nutrient-dense core that feeds the plant as it grows. This " +
@@ -114,10 +114,12 @@ export default {
           subtitle: "Jojoba Oil",
           subhead: "Soulflower Reflexology Aroma Massage Oil, 90 ml",
           price: 102,
-          image:"https://5.imimg.com/data5/LS/UU/MY-544927/omega-9-fatty-acids-500x500.png",
+          image:
+            "https://raw.githubusercontent.com/elirehema/vuespa/master/assets/img/static/jojoba_oil.jpg",
           description:
             "Jojoba oil is the liquid produced in the seed of the Simmondsia chinensis (jojoba) plant, a shrub, which is native to southern Arizona, southern California, and northwestern Mexico. The oil makes up approximately 50% of the jojoba seed by weight.[1] The terms `jojoba oil` and `jojoba wax` are often used interchangeably because the wax visually appears to be a mobile oil, but as a wax it is composed almost entirely (~97%) of mono-esters of long-chain fatty acids and alcohols, accompanied by only a tiny fraction of triglyceride esters. This composition accounts for its extreme shelf-life stability and extraordinary resistance to high temperatures, compared with true vegetable oils.",
-          composition: "Palmitic acid, Palmitoleic acid, Stearic acid, Oleic acid, Arachidic acid, Eicosenoic acid, Behenic acid, Erucic acid, Lignoceric acid, Nervonic acid",
+          composition:
+            "Palmitic acid, Palmitoleic acid, Stearic acid, Oleic acid, Arachidic acid, Eicosenoic acid, Behenic acid, Erucic acid, Lignoceric acid, Nervonic acid",
           features: []
         },
         {
