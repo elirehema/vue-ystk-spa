@@ -1,6 +1,6 @@
 # salon
 
-> My slick Nuxt.js project
+> My salon Nuxt.js project
 
 ## Build Setup
 

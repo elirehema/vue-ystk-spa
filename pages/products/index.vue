@@ -21,7 +21,7 @@
         </v-flex>-->
         <v-flex xs12 sm12 md12 order-md2 order-sm2>
           <v-row>
-            <v-col cols="12" md="3" sm="12" wrap v-for="(product, index ) in products" :key="index">
+            <v-col cols="12" md="3" sm="12" wrap v-for="(product, index) in products" :key="index">
               <bottle-component :product="product"></bottle-component>
             </v-col>
           </v-row>
@@ -40,37 +40,40 @@ export default {
     return {
       products: [
         {
-          title: "Oriental Botanics",
-          subtitle: "Body Massage Oil - Jasmine & Nargis, 200 ml",
+          title: "Rafael Salgado Refined Olive Pomace Oil",
+          subtitle: "R.S Refined Oil",
+          subhead:
+            "Refined Olive Pomace Oil Blended with Extra Virgin Olive Oil",
           price: 214,
           image:
-            "https://www.bigbasket.com/media/uploads/p/xxl/40140526_2-oriental-botanics-body-massage-oil-jasmine-nargis.jpg",
+            "https://media.naheed.pk/catalog/product/cache/49dcd5d85f0fa4d590e132d0368d8132/1/0/1037389-1.jpg",
           description:
             "Introducing the Oriental Botanics Bath and Body Oil - A botanical delicately scented Body Oil making it the best oil for the skin. It is a light natural oil that penetrates your skin cells to moisturise and provides a soothing topical barrier without clogging pores which leaving skin feeling hydrated and enriched. This product is made from Almond, Jojoba, Grapeseed, Coconut, Avocado oils providing a comfortable and non-greasy feeling. When you have a stressful day and fatigued mind, the fresh and reviving fragrance of Jasmine and Nargis will freshen up and soothe your body and mind.",
           composition:
-            "Rice Bran (Oryza Sativa) Oil 20%, Sweet Almond (Prunus dulcis) Cold Pressed Oil 20%, Virgin Golden Jojoba (Simmondsia chimesis) Cold Pressed Oil 10%, Grapeseed (Vitis vinifera) Cold Pressed Oil 15%, Organic Virgin Coconut (Cocus nucifera) Cold Pressed Oil 15%, Avocado (Persea americana) Cold Pressed Oil 10%, Safflower Seed (Carthamus tinctorius) Cold Pressed Oil 5%, Fragrance Blend (Derived From Jasmine and Nargis Essential Oil)",
+            "RS olive pomace oil blended with cold pressed olive oil" +
+            "Advantages: Especially for massage and, little flavorgives" +
+            "  a small bouquet. It differs from other pomace oils refined " +
+            " thanks to the percentage of leading and quality of Extra virginn," +
+            "  keeping the color longer than other conventional oils. Brought to you by Home Max Karachi",
           features: [
-            "With a deeply soothing and calming nature, it produces a feeling of confidence, optimism and euphoria, while soothing and nourishing skin",
-            "100% pure and safe premium grade blended oil",
-            "No additives, mineral oil, base oil, SLS, paraben or silicon are added"
+            "A blend of virgin and refined olive oil",
+            "Contains 100 percent pure olives",
+            "A cholesterol free product, with no additives or preservatives"
           ]
         },
         {
           title: "Aloe Veda",
-          subtitle: " Body Massage Oil - Sports Massage, 200 ml",
+          subtitle: "Aloe Veda",
+          subhead: " Body Massage Oil - Sports Massage, 200 ml",
           price: 199,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40020321_5-aloe-veda-body-massage-oil-sports-massage.jpg",
           description:
-            "This Distil Sports Massage Body Massage Oil is specially formulated with a healing blend of" +
-            "pure Essential Oils in a carrier oil base of premium Sweet Almond Oil. Distil Oils are gentle, light on the" +
-            " skin and easily absorbed by the body due to its ideal viscosity. It contains beta-carotene, gamma-oryzanol," +
-            "tocotrienols (vitamin E) and vitamins D, C. The rich presence of essential fatty acids like palmitic, stearic," +
-            " and linoleic acid moisturizes the skin, balances both dry and oily patches, reduce inflammation, soothes discomfort " +
-            "and is a wonderful oil for itchy alligator skin. Regular massage with Distil Massage Oils, promote the restoration of" +
-            "collagen at the cellular level, makes the skin firm, smooth and youthful in appearance. The special blend of Essential" +
-            "Oils is specially formulated for a massage after strenuous physical activity and speeds healing of aching muscles," +
-            "joints and ligaments",
+            "RS olive pomace oil blended with cold pressed olive oil" +
+            "Advantages: Especially for massage and, little flavorgives" +
+            "  a small bouquet. It differs from other pomace oils refined " +
+            " thanks to the percentage of leading and quality of Extra virginn," +
+            "  keeping the color longer than other conventional oils. Brought to you by Home Max Karachi",
           composition:
             "Vegetable Oils, Sweet Almond Oil, Apricot Kernel Oil, Sports Massage Essential Oil Blend.",
           features: [
@@ -80,7 +83,8 @@ export default {
         },
         {
           title: "Ayusya Massage Oil",
-          subtitle: "Ayusya Massage Oil, 200 ml",
+          subtitle: "Ayusya Massage Oil",
+          subhead: "Ayusya Massage Oil, 200 ml",
           price: 114,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40108119_1-ayusya-massage-oil.jpg",
@@ -98,7 +102,8 @@ export default {
         },
         {
           title: "Soulflower Reflexology Aroma",
-          subtitle: "Soulflower Reflexology Aroma Massage Oil, 90 ml",
+          subtitle: "Soulflower Reflexology",
+          subhead: "Soulflower Reflexology Aroma Massage Oil, 90 ml",
           price: 102,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/30006528-2_3-soulflower-tea-tree-foot-reflexology-aroma-massage-oil.jpg",
@@ -112,7 +117,8 @@ export default {
         },
         {
           title: "StBotanica Himalyan Lavender",
-          subtitle: " Pure Aroma Essential Oil, 15 ml",
+          subtitle: "StBotanica Himalyan",
+          subhead: " Pure Aroma Essential Oil, 15 ml",
           price: 122,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40140574_3-stbotanica-himalyan-lavender-pure-aroma-essential-oil.jpg",
@@ -127,7 +133,8 @@ export default {
         },
         {
           title: "Chandrika Purifying Neem",
-          subtitle: "Chandrika Purifying Neem Face Wash, 50 g",
+          subtitle: "Chandrika Purifying",
+          subhead: "Chandrika Purifying Neem Face Wash, 50 g",
           price: 50,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40018973_3-chandrika-purifying-neem-face-wash.jpg",
@@ -142,7 +149,8 @@ export default {
         },
         {
           title: "CMom & World Massage Lotion",
-          subtitle: "For Stretch Marks, 120 ml",
+          subtitle: "CMom & World Lotion",
+          subhead: "For Stretch Marks, 120 ml",
           price: 26,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40140596_5-mom-world-massage-lotion-for-stretch-marks.jpg",
@@ -162,7 +170,8 @@ export default {
         },
         {
           title: "Indulekha Hair Oil",
-          subtitle: "Indulekha Hair Oil - Bhringa, 50 ml",
+          subtitle: "Indulekha Oil",
+          subhead: "Indulekha Hair Oil - Bhringa, 50 ml",
           price: 26,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40111426-2_1-indulekha-hair-oil-bhringa.jpg",
