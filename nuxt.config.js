@@ -1,71 +1,74 @@
-import colors from 'vuetify/es5/util/colors'
+import colors from "vuetify/es5/util/colors";
 
 export default {
-  mode: 'spa',
+  mode: "spa",
   router: {
-    base: process.env.NODE_ENV === 'production' ? '/vuespa/' : '/',
-    routerNameSplitter: '/',
+    base: process.env.NODE_ENV === "production" ? "/vuespa/" : "/",
+    routerNameSplitter: "/"
   },
   /*
    ** Headers of the page
    */
   head: {
-    titleTemplate: '%s - ' + process.env.npm_package_name,
-    title: process.env.npm_package_name || '',
-    meta: [{
-        charset: 'utf-8'
+    titleTemplate: "%s - " + process.env.npm_package_name,
+    title: process.env.npm_package_name || "",
+    meta: [
+      {
+        charset: "utf-8"
+      },
+      /**Chrome, Firefox OS and Opera **/
+      { name: "theme-color", content: "#48B983" },
+      /**Windows phone **/
+      { name: "msapplication-navbutton-color", content: "#48B983" },
+      /**iOS Safari**/
+      { name:"apple-mobile-web-app-status-bar-style", content:"#48B983"},
+      {
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
       },
       {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
+        hid: "description",
+        name: "description",
+        content: process.env.npm_package_description || ""
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "/favicon.ico"
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fff'
+    color: "#fff"
   },
   /*
    ** Global CSS
    */
   css: [
     // Load a Node.js module directly (here it's a Sass file)
-    'bulma',
+    "bulma",
     // CSS file in the project
-    '@/assets/css/main.css',
+    "@/assets/css/main.css",
     // SCSS file in the project
-    '@/assets/css/main.scss'
+    "@/assets/css/main.scss"
   ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    '@plugins/vuetify.js'
-  ],
+  plugins: ["@plugins/vuetify.js"],
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    '@nuxtjs/vuetify',
-  ],
+  buildModules: ["@nuxtjs/vuetify"],
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/bulma'
-  ],
+  modules: ["@nuxtjs/bulma"],
 
   /*
    ** Build configuration
@@ -85,6 +88,6 @@ export default {
   },
   server: {
     port: 8000, // default: 3000
-    host: '0.0.0.0', // default: localhost
-  },
+    host: "0.0.0.0" // default: localhost
+  }
 };
