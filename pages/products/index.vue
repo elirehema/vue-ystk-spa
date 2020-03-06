@@ -62,18 +62,19 @@ export default {
           ]
         },
         {
-          title: "Aloe Veda",
-          subtitle: "Aloe Veda",
-          subhead: " Body Massage Oil - Sports Massage, 200 ml",
+          title: "Xtreme Collection",
+          subtitle: "Xtreme Collection Gold Scrub Cream",
+          subhead: "Xtreme Collection Gold Facial Whitening Scrub - 500g",
           price: 199,
           image:
-            "https://www.bigbasket.com/media/uploads/p/l/40020321_5-aloe-veda-body-massage-oil-sports-massage.jpg",
+            "https://static-01.daraz.pk/original/c67313d6723986ef44e25bdb24f4e287.jpg",
           description:
-            "RS olive pomace oil blended with cold pressed olive oil" +
-            "Advantages: Especially for massage and, little flavorgives" +
-            "  a small bouquet. It differs from other pomace oils refined " +
-            " thanks to the percentage of leading and quality of Extra virginn," +
-            "  keeping the color longer than other conventional oils. Brought to you by Home Max Karachi",
+            "Xtreme Collection Gold Scrub is a unique treatment with herbal combination involves special methods of massage and application " +
+            "It is good for both dry and oily skin types. It improves blood circulation," +
+            " skin elasticity, rejuvenates the skin and helps in delaying the formation of lines and wrinkles.This is an aromatic deep cleansing " +
+            "scrub that gently and gradually removes surface impurities and " +
+            " dead skin cells leaving your skin soft, smooth and glowing on regular continued usage." +
+            " Suitable for all skins and also highly effective.",
           composition:
             "Vegetable Oils, Sweet Almond Oil, Apricot Kernel Oil, Sports Massage Essential Oil Blend.",
           features: [
@@ -82,37 +83,41 @@ export default {
           ]
         },
         {
-          title: "Ayusya Massage Oil",
-          subtitle: "Ayusya Massage Oil",
-          subhead: "Ayusya Massage Oil, 200 ml",
+          title: "Wheat germ oil",
+          subtitle: "Wheat germ oil",
+          subhead: " Wheat Germ Oil, 200 ml",
           price: 114,
           image:
-            "https://www.bigbasket.com/media/uploads/p/l/40108119_1-ayusya-massage-oil.jpg",
+            "https://millevertus.ca/boutique/image/cache/catalog/huile_vegetale/wheatgerm-Triticum-vulgare-vegetable-oil-500x500.jpg",
           description:
-            "Calms Nerves, Stress And Makes You Relax, Relieves Fatigue, Aches," +
-            "Pain & Increases Circulation, Keeps The Joints Flexible & Nourishes," +
-            " The Whole Body, Promotes Deeper And Better Sleep, Improves Energy And" +
-            "Mental Alertness, Clean And Glowing Skin Naturally, . For Beauty tips, tricks & more visit https://bigbasket.blog/",
+            "Wheat germ oil is derived from the germ of the wheat berry, which" +
+            " is the nutrient-dense core that feeds the plant as it grows. This " +
+            "also means that the majority of usable chemicals and compounds are " +
+            "found in this germ. People often use wheat germ oil when they are" +
+            " suffering from diabetes, high blood pressure, obesity, hair loss," +
+            " dandruff, dry skin, wrinkles, premature aging, dementia, " +
+            "memory loss, acne, fatigue, psoriasis, and various other health conditions.",
           composition:
-            "Dashmool Bharad, Ashwagandha, Shatavari, Tagar, Nirgundi, , Til Tel.",
+            "Linoleic acid (omega-6), Palmitic acid, Oleic acid, Linolenic acid (omega-3)",
           features: [
-            "100% pure and safe premium grade blended oil",
-            "No additives, mineral oil, base oil, SLS, paraben or silicon are added"
+            "Supply Type: OEM/ODM",
+            "Certification: FDA",
+            "Type: Pure Essential Oil",
+            "Raw Material: Seeds",
+            "Ingredient: Wheat germ Oil",
+            "Place of Origin: Shaanxi, China (Mainland)",
+            "Model Number: 95%"
           ]
         },
         {
-          title: "Soulflower Reflexology Aroma",
-          subtitle: "Soulflower Reflexology",
+          title: "Jojoba Oil",
+          subtitle: "Jojoba Oil",
           subhead: "Soulflower Reflexology Aroma Massage Oil, 90 ml",
           price: 102,
-          image:
-            "https://www.bigbasket.com/media/uploads/p/l/30006528-2_3-soulflower-tea-tree-foot-reflexology-aroma-massage-oil.jpg",
+          image:"https://5.imimg.com/data5/LS/UU/MY-544927/omega-9-fatty-acids-500x500.png",
           description:
-            "Soulflower Tea Tree Foot Reflexology Aroma Massage Oil is a blend of light oils that" +
-            " get easily absorbed by your skin. This perfect formulation relaxes and refreshes tired" +
-            " feet, softens rough skin and corns." +
-            " Reflexology can help you by increasing blood flow and decreasing stress.",
-          composition: "Tea Tree",
+            "Jojoba oil is the liquid produced in the seed of the Simmondsia chinensis (jojoba) plant, a shrub, which is native to southern Arizona, southern California, and northwestern Mexico. The oil makes up approximately 50% of the jojoba seed by weight.[1] The terms `jojoba oil` and `jojoba wax` are often used interchangeably because the wax visually appears to be a mobile oil, but as a wax it is composed almost entirely (~97%) of mono-esters of long-chain fatty acids and alcohols, accompanied by only a tiny fraction of triglyceride esters. This composition accounts for its extreme shelf-life stability and extraordinary resistance to high temperatures, compared with true vegetable oils.",
+          composition: "Palmitic acid, Palmitoleic acid, Stearic acid, Oleic acid, Arachidic acid, Eicosenoic acid, Behenic acid, Erucic acid, Lignoceric acid, Nervonic acid",
           features: []
         },
         {
