@@ -74,42 +74,42 @@ export default {
       draweritems: [
         {
           icon: "mdi-home-variant",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Home",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/"
         },
         {
           icon: "mdi-face-profile",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Salon",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/salon"
         },
         {
           icon: "mdi-face",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Men",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/men"
         },
         {
           icon: "mdi-face-woman",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Women",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/women"
         },
         {
           icon: "mdi-format-list-text",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Products",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/products"
         },
         {
           icon: "mdi-file-phone",
-          iconClass: "pink lighten-1 white--text",
+          iconClass: "primary lighten-1 white--text",
           title: "Contact Us",
           subtitle: "Lorem ipsum dolor sit de amet ...",
           to: "/contact"
