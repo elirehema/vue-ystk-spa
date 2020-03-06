@@ -5,7 +5,7 @@
     right
     temporary
     fixed
-    class="primary darken-3"
+    class="primary"
   >
     <v-list>
       <v-list-item v-for="(i, index) in draweritems" :key="index" :to="i.to">
