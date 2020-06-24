@@ -1,4 +1,4 @@
-# salon
+# Salon app  [![Netlify Status](https://api.netlify.com/api/v1/badges/3d6bcb72-53b9-4406-bcdc-38d73685dd99/deploy-status)](https://app.netlify.com/sites/magichands/deploys) [![Build Status](https://travis-ci.com/elirehema/vuespa.svg?branch=master)](https://travis-ci.com/elirehema/vuespa)
 
 > My salon Nuxt.js project
 
