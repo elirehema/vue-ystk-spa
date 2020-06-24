@@ -8,10 +8,8 @@
             <v-col xs12 sm12 md4>
               <v-card width="800" class="ma-0 pa-0 grey lighten-3" flat elevation="0" title>
                 <v-img height="520" width="110%" :src="data.image"></v-img>
-                <v-card-title class="headline">{{data.subtitle}}</v-card-title>
-                <v-card-text>
-                  Small plates, salads & sandwiches - an intimate
-                  setting with 12 indoor seats plus patio seating.
+                <v-card-title class="headline " >{{data.subtitle}}</v-card-title>
+                <v-card-text>{{data.description}}
                 </v-card-text>
               </v-card>
             </v-col>

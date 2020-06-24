@@ -44,13 +44,19 @@ export default {
   data() {
     return {
       description:
-        "Magic Hands Massage — spa website design inspiration, spa" +
-        "website design ideas, spa website layout, spa, beauty," +
-        "health, white, grey, turquoise, fresh, clean, feminine," +
-        "minimal, web design, website design, professional, brand design, brand identity," +
-        "website design inspiration, feminine branding design",
+        "Massage is no longer available only through luxury spas and upscale health clubs. "+
+        "Today, massage therapy is offered in businesses, clinics, hospitals and even airports."+
+        " If you've never tried massage,"+
+        " learn about its possible health benefits and what to expect during a massage therapy session." +
+        "Magic Hands offers a unique opportunity for professional massage therapists to enhance their skills and advance their practice in the acute care hospital setting. ",
       description_large:
-        "Magic Hands Massage — spa website design inspiration, spawebsite design ideas, spa website layout, spa, beauty,health, white, grey, turquoise, fresh, clean, feminine,minimal, web design, website design, professional, brand design, brand identity,website design inspiration, feminine branding designIf you’re quite active on Instagram, you probably know just howcommon inspirational quotes are on the platform. The truth is, they work.They never cease to get engagement. But this doesn’t just happen on Instagram:people simply love relating to positive statements! That’s also why many salonsand spas these days will have light boxes sitting at the front desk, displayinga fun or inspiring saying. So whether you’re looking for social media material,a bank of spa quotes to insert at the bottom of amarketing email or display on your light box, we’ve got you covered! Magic Hands Massage — spa website design inspiration, spawebsite design ideas, spa website layout, spa, beauty,health, white, grey, turquoise, fresh, clean, feminine,minimal, web design, website design, professional, brand design, brand identity,website design inspiration, feminine branding designIf you’re quite active on Instagram, you probably know just howcommon inspirational quotes are on the platform. The truth is, they work.They never cease to get engagement. But this doesn’t just happen on Instagram:people simply love relating to positive statements! That’s also why many salonsand spas these days will have light boxes sitting at the front desk, displayinga fun or inspiring saying. So whether you’re looking for social media material,a bank of spa quotes to insert at the bottom of amarketing email or display on your light box, we’ve got you covered!",
+        " Massage is no longer available only through luxury spas and upscale health clubs."+
+        " Today, massage therapy is offered in businesses, clinics, hospitals and even airports."+
+        " If you've never tried massage, learn about its possible health benefits and what to expect"+
+        
+        " during a massage therapy session. " +
+        "Magic Hands offers a unique opportunity for professional massage therapists to enhance their"+
+        " skills and advance their practice in the acute care hospital setting. ",
       title: "Magic Hands Massage"
     };
   }
