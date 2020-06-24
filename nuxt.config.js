@@ -17,11 +17,11 @@ export default {
         charset: "utf-8"
       },
       /**Chrome, Firefox OS and Opera **/
-      { name: "theme-color", content: "#48B983" },
+      { name: "theme-color", content: "#6e2020" },
       /**Windows phone **/
-      { name: "msapplication-navbutton-color", content: "#48B983" },
+      { name: "msapplication-navbutton-color", content: "#6e2020" },
       /**iOS Safari**/
-      { name:"apple-mobile-web-app-status-bar-style", content:"#48B983"},
+      { name:"apple-mobile-web-app-status-bar-style", content:"#6e2020"},
       {
         name: "viewport",
         content: "width=device-width, initial-scale=1"
