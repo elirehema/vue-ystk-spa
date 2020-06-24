@@ -4,7 +4,7 @@
     width="100%"
     fill-height
     fill-width
-    src="https://image.freepik.com/free-photo/spa-massage-concept-herbal-compress-ball-cream-flower-soap-scented-candle_73344-3118.jpg"
+    src="https://img.wallpapersafari.com/desktop/1920/1080/30/72/RY0iap.jpg"
   >
     <v-container fluid fill-height grid-list-md text-xs-center>
       <v-layout row wrap align-center>
@@ -84,8 +84,8 @@ export default {
         },
         {
           title: "Wheat germ oil",
-          subtitle: "Wheat germ oil",
-          subhead: " Wheat Germ Oil, 200 ml",
+          subtitle: "Wheat germ oil,200 ml",
+          subhead: "Wheat germ oil is extracted from the germ of its kernel",
           price: 114,
           image:
             "https://raw.githubusercontent.com/elirehema/vuespa/master/assets/img/static/plant_extra.jpg",

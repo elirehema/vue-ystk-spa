@@ -44,7 +44,7 @@
                       color="primary"
                       style="width: 72px; display: inline-block;"
                       wrap
-                      @click=" mailTo"
+                      @click="mailTo()"
                     >Send</v-btn>
                   </v-container>
                 </v-card-actions>
@@ -67,6 +67,8 @@ export default {
       name: null,
       email: null,
       message: "",
+      lazy: false,
+      valid:true,
       nameRules: [
         v => !!v || "Name is required",
         v => (v && v.length <= 10) || "Name must be less than 10 characters"
@@ -80,13 +82,6 @@ export default {
   },
   methods: {
     mailTo() {
-      document.location.href =
-         
-        "mailto:magichandsmassage6@gmail.com?subject=" +
-        "Name: \n" +
-        this.name +
-        " \n\n Message:  " +
-        this.message;
     }
   }
 };
