@@ -1,6 +1,6 @@
 <template>
   <v-app dark>
-    <v-card flat>
+    <v-card flat tile>
       <v-toolbar color="primary" dark flat>
         <v-avatar>
           <img src="~assets/img/logo.png" alt="John" />

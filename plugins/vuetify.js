@@ -19,7 +19,7 @@ export default ctx => {
           error: "#FF5252"
         },
         light: {
-          primary: "#E7717D",
+          primary: "#6e2020",
           accent: "#E91E63",
           secondary: "#30b1dc",
           success: "#4CAF50",

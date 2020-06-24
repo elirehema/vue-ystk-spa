@@ -157,7 +157,7 @@ export default {
         {
           title: "CMom & World Massage Lotion",
           subtitle: "CMom & World Lotion",
-          subhead: "For Stretch Marks, 120 ml",
+          subhead: "What essential oils are good for preventing stretch marks?",
           price: 26,
           image:
             "https://www.bigbasket.com/media/uploads/p/l/40140596_5-mom-world-massage-lotion-for-stretch-marks.jpg",
