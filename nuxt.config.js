@@ -10,7 +10,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    titleTemplate: process.env.npm_package_name,
+    titleTemplate: "Magic Hands Massage Therapy",
     title: process.env.npm_package_name || "",
     meta: [
       {
