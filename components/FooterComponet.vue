@@ -50,12 +50,12 @@
 
             <v-flex xs12 sm12 md4 order-md2 order-sm2>
                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F176175273301461&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" 
-               scrolling="yes" style="border:none; overflow:hidden; width:100%; height:430px; background: white; float:left; "
+               scrolling="yes" style="border:none; overflow:hidden; width:100%; height:460px; background: white; float:left; "
                 allowtransparency="true" frameborder="0"></iframe>
                 
             </v-flex>
             <v-flex xs12 sm12 md4 order-md3 order-sm3>
-            <iframe width="320" height="440" src="http://instagram.com/p/qbq6fIJMVZ/embed" frameborder="0"></iframe>
+            <iframe width="100%" height="460" src="http://instagram.com/p/qbq6fIJMVZ/embed" frameborder="0"></iframe>
             </v-flex>
           </v-layout>
         </v-container>
