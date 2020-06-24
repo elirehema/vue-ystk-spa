@@ -1,133 +1,116 @@
 <template>
   <v-app dark>
-    <v-app-bar
-      app
-      absolute
-      color="primary"
-      elevate-on-scroll
-      scroll-target="#scrolling-techniques-7"
-    >
-      <v-avatar>
-        <img src="~assets/img/logo.png" alt="John" />
-      </v-avatar>
+    <v-card flat>
+      <v-toolbar color="primary" dark flat>
+        <v-avatar>
+          <img src="~assets/img/logo.png" alt="John" />
+        </v-avatar>
 
-      <v-spacer />
+        <v-toolbar-title>Your Dashboard</v-toolbar-title>
 
-      <v-card
-        v-if="$vuetify.breakpoint.mdAndUp"
-        class="d-flex flex-row-reverse"
-        color="primary"
-        flat
-        tile
-      >
-        <v-card tile flat color="primary">
-          <v-btn
-            v-for="(n, index) in draweritems"
-            :key="index"
-            small
-            class="white--text text-uppercase font-weight-regular"
-            dense
-            text
-            :to="n.to"
-          >{{n.title}}</v-btn>
-        </v-card>
-      </v-card>
-      <v-btn v-if="$vuetify.breakpoint.smAndDown" icon @click.stop="click">
-        <v-icon color="white">mdi-menu</v-icon>
-      </v-btn>
-    </v-app-bar>
-    <v-content>
-      <v-container ma-0 pa-0 fluid>
-        <nuxt />
-      </v-container>
-    </v-content>
-    <navigation-drawer-component :draweritems="draweritems" ref="childComponent"></navigation-drawer-component>
+        <v-spacer></v-spacer>
+
+        <template v-slot:extension>
+          <v-tabs v-model="tab" right>
+            <v-tabs-slider color="yellow"></v-tabs-slider>
+
+            <v-tab v-for="item in items" :key="item">{{ item }}</v-tab>
+          </v-tabs>
+        </template>
+      </v-toolbar>
+      <v-tabs-items v-model="tab">
+        <v-tab-item>
+          <home-component></home-component>
+        </v-tab-item>
+        <v-tab-item>  <gender-component :data="maleinfos"></gender-component></v-tab-item>
+        <v-tab-item>  <gender-component :data="femaleinfos"></gender-component></v-tab-item>
+        <v-tab-item><bottle-component></bottle-component>
+        </v-tab-item>
+        <v-tab-item>  <contact-us-component></contact-us-component></v-tab-item>
+      </v-tabs-items>
+    </v-card>
     <footer-component></footer-component>
   </v-app>
 </template>
 
 <script>
+import ContactUsComponent from "~/components/contacts/ContactFormComponent.vue";
+import BottleComponent from "~/components/products/products.vue";
+import GenderComponent from "~/components/women/GenderComponent.vue";
 import FooterComponent from "~/components/FooterComponet.vue";
-import NavigationDrawerComponent from "~/components/NavigationDrawerComponent.vue";
+import HomeComponent from "~/components/HomePage.vue";
 export default {
   components: {
+    ContactUsComponent,
+    BottleComponent,
+    GenderComponent,
     FooterComponent,
-    NavigationDrawerComponent
+    HomeComponent
   },
   data() {
     return {
       clipped: false,
       drawer: false,
       fixed: false,
-      items: [
-        {
-          icon: "mdi-apps",
-          title: "Welcome",
-          to: "/"
-        },
-        {
-          icon: "mdi-chart-bubble",
-          title: "Inspire",
-          to: "/inspire"
-        }
-      ],
-      draweritems: [
-        {
-          icon: "mdi-home-variant",
-          iconClass: "primary lighten-1 white--text",
-          title: "Home",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/"
-        },
-        // {
-        //   icon: "mdi-face-profile",
-        //   iconClass: "primary lighten-1 white--text",
-        //   title: "Salon",
-        //   subtitle: "Lorem ipsum dolor sit de amet ...",
-        //   to: "/salon"
-        // },
-        {
-          icon: "mdi-face",
-          iconClass: "primary lighten-1 white--text",
-          title: "Men",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/men"
-        },
-        {
-          icon: "mdi-face-woman",
-          iconClass: "primary lighten-1 white--text",
-          title: "Women",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/women"
-        },
-        {
-          icon: "mdi-format-list-text",
-          iconClass: "primary lighten-1 white--text",
-          title: "Products",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/products"
-        },
-        {
-          icon: "mdi-file-phone",
-          iconClass: "primary lighten-1 white--text",
-          title: "Contact Us",
-          subtitle: "Lorem ipsum dolor sit de amet ...",
-          to: "/contact"
-        }
-      ],
-
-      miniVariant: false,
-      right: false,
-      rightDrawer: false,
-      title: "Vuetify.js"
-    };
-  },
-  methods: {
-    click: function() {
-      this.$refs.childComponent.setValue();
-    }
+      tab: null,
+      items: ["Home", "Male", "Female", "Products", "Contact Us"],
+       maleinfos: {
+        title: "",
+        subtitle: "SiTAMET CONSTECTETUR ADIPISCI VELIT",
+        background: "https://img.wallpapersafari.com/desktop/1920/1080/30/72/RY0iap.jpg",
+        image: "http://femaletomalebodymassageinmumbai.com/img/second.jpg",
+        description:
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui."
+      },
+      femaleinfos: {
+        title: "",
+        subtitle: "SiTAMET CONSTECTETUR ADIPISCI VELIT",
+        background:
+          "https://img.wallpapersafari.com/desktop/1920/1080/30/72/RY0iap.jpg",
+        image:
+          "https://www.aaby-beautyacademy.co.uk/wp-content/uploads/2016/01/body-massage.jpg",
+        description:
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui." +
+          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
+          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
+          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
+          "a sit amet dui."
+      }
+      };
   }
 };
 </script>
-<style scoped>
-</style>

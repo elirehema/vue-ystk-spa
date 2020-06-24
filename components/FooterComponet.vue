@@ -23,7 +23,7 @@
             <v-flex xs12 sm12 md4 order-md1 order-sm1>
               <a
                 class="twitter-timeline"
-                data-height="150"
+                data-height="430"
                 href="https://twitter.com/massagetz?ref_src=twsrc%5Etfw"
               >Tweets by massagetz</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -45,29 +45,17 @@
                 data-show-count="false"
               >Tweet to @massagetz</a>
               <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              
             </v-flex>
 
             <v-flex xs12 sm12 md4 order-md2 order-sm2>
-              <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center caption">
-                  Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-                  Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-                  accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-                  a sit amet dui.
-                </v-card-text>
-              </v-card>
+               <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F176175273301461&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435" 
+               scrolling="yes" style="border:none; overflow:hidden; width:100%; height:430px; background: white; float:left; "
+                allowtransparency="true" frameborder="0"></iframe>
+                
             </v-flex>
             <v-flex xs12 sm12 md4 order-md3 order-sm3>
-              <v-card dark tile flat color="rgb(255, 0, 0, 0)">
-                <v-card-title class="justify-center subtitle-2">Lorem Ipsum dolor sit de amet</v-card-title>
-                <v-card-text class="justify-center caption">
-                  Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet.
-                  Mauris cursus commodo interdum. Praesent ut risus eget metus luctus
-                  accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim
-                  a sit amet dui.
-                </v-card-text>
-              </v-card>
+            <iframe width="320" height="440" src="http://instagram.com/p/qbq6fIJMVZ/embed" frameborder="0"></iframe>
             </v-flex>
           </v-layout>
         </v-container>
@@ -97,6 +85,10 @@ export default {
         {
           icon: "mdi-instagram",
           link: "https://www.instagram.com/massagemagichands/"
+        },
+        {
+          icon: "mdi-whatsapp",
+          link: "https://api.whatsapp.com/send?phone=255767695999&text=I%27m%20interested%20in%20your%20service...%20&source=&data="
         }
       ]
     };
