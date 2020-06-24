@@ -5,8 +5,8 @@
         <v-avatar>
           <img src="~assets/img/logo.png" alt="John" />
         </v-avatar>
-
-        <v-toolbar-title>Your Dashboard</v-toolbar-title>
+        
+        <v-toolbar-title>&nbsp;{{title}}</v-toolbar-title>
 
         <v-spacer></v-spacer>
 
@@ -53,62 +53,24 @@ export default {
       drawer: false,
       fixed: false,
       tab: null,
+      title:'Magic Hands Massage',
       items: ["Home", "Male", "Female", "Products", "Contact Us"],
        maleinfos: {
         title: "",
-        subtitle: "SiTAMET CONSTECTETUR ADIPISCI VELIT",
+        subtitle: "Massage Therapy for Men",
         background: "https://img.wallpapersafari.com/desktop/1920/1080/30/72/RY0iap.jpg",
         image: "http://femaletomalebodymassageinmumbai.com/img/second.jpg",
-        description:
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui."
+        description: "Massage is a necessity for men who play physical sports. Massage not only eases the onset of muscle soreness, but can speed healing by boosting the body’s circulatory and immune system.  A sports massage is specifically designed to improve athletic performance."
+          
       },
       femaleinfos: {
         title: "",
-        subtitle: "SiTAMET CONSTECTETUR ADIPISCI VELIT",
+        subtitle: "Massage Therapy for Women",
         background:
           "https://img.wallpapersafari.com/desktop/1920/1080/30/72/RY0iap.jpg",
         image:
           "https://www.aaby-beautyacademy.co.uk/wp-content/uploads/2016/01/body-massage.jpg",
-        description:
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui." +
-          "Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet." +
-          "Mauris cursus commodo interdum. Praesent ut risus eget metus luctus" +
-          "accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim" +
-          "a sit amet dui."
+        description:"Benefits of Massage for Women Massage can lower blood pressure by lowering your overall heart rate. Massage can boost your immune system, stimulating your killer cells"
       }
       };
   }
